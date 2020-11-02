@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bolivia Cloth Market</title>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		:root{
+			--main-header-color:linear-gradient(45deg,#ef971e,#ffbc6a);
+		}
+		body,html{
+			margin: 0;
+			padding: 0;
+			background-color: #fefefe;
+		}
+		header{
+			height: 40px;
+			padding: 10px;
+			width: calc(100% - 20px);
+			line-height: 40px; 
+			display: flex;
+			background: var(--main-header-color);
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+		
+		.logo-place{
+			width: 150px;
+			justify-content: center;
+			align-items: center;
+			margin-top: 7px;
+		}
+		.logo-place img {
+			width: 100%;
+
+		}
+		.search-place{
+			width: calc(100% );
+			display: flex;
+			padding: 0px 20px;
+
+		}
+		.search-place{
+			padding: 10px;
+			font-size: 15px;
+			background-color: #fefefe;
+			border: 1px solid #ccc;
+			width: calc(100% - 62px);
+
+		}
+		.btn-main{
+			padding: 10px;
+			font-size: 15px;
+			background-color: #fefefe;
+			border-style: none;
+			border: 1px solid #ccc;
+			cursor: pointer;
+
+		}
+		.btn-search{
+			width: 40px;
+		}
+		.option-place{
+			width: 250px;
+			display: flex;
+			justify-content: flex-end;
+
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo-place"><img src="assets/logo.png"></div>
+		<div class="search-place">
+			<input type="text" id="idbusqueda">
+			<button class="btn-main btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+		</div>
+		<div class="option-place">
+			<div class="item-option"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+			<div class="item-option"><i class="fa fa-sign-in" aria-hidden="true"></i></div>
+			<div class="item-option"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+			
+		</div>
+	</header>
+
+</body>
+</html>>
